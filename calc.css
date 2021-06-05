@@ -47,3 +47,12 @@ table{
 	color: white;
 	text-align: center;
 }
+@media (max-width:700px) {
+	table{
+		width: 100%;
+		padding: 2%;
+	}
+	#screen{
+		width: 100%;
+	}
+}
