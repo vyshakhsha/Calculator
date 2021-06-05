@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="/C:\Users\USER\Pictures/favicon.ico" rel="icon" type="image/x-icon" />
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+	<script type="text/javascript" src="calc.js"></script>
+</head>
+<body>
+	<form>
+		<TABLE class="TABLE">
+			<tr>
+				<td colspan="4">
+					<div class="casio">
+							<b>CASIO ®</b>
+					</div>
+
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<input type="text" id="screen"  name="display" readonly>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" class="button" value="(" onclick="dis('(')"">
+				</td>
+				<td>
+					<input type="button"  class="button" value=")"  name="" onclick="dis(')')">
+				</td>
+				<td>
+					<input type="button"  class="button" value="%"  name="" onclick="dis('%')">
+				</td>
+				<td>
+					<input type="button"  class="button" value="AC"  name=""onclick="clear_screen()">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" class="button" value="7" onclick="dis(7)">
+				</td>
+				<td>
+					<input type="button"  class="button" value="8"  name=""onclick="dis(8)">
+				</td>
+				<td>
+					<input type="button"  class="button" value="9"  name=""onclick="dis(9)">
+				</td>
+				<td>
+					<input type="button"  class="button" value="/"  name=""onclick="dis('/')">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" class="button" value="4" name=""onclick="dis(4)">
+				</td>
+				<td>
+					<input type="button"class="button"   value="5"  name=""onclick="dis(5)">
+				</td>
+				<td>
+					<input type="button"class="button"  value="6"  name=""onclick="dis(6)">
+				</td>
+				<td>
+					<input type="button" class="button" value="X"  name=""onclick="dis('*')">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button"class="button" value="1" name=""onclick="dis(1)">
+				</td>
+				<td>
+					<input type="button"class="button"  value="2"  name=""onclick="dis(2)">
+				</td>
+				<td>
+					<input type="button"class="button"  value="3"  name=""onclick="dis(3)">
+				</td>
+				<td>
+					<input type="button"class="button"  value="-"  onclick="dis('-')">
+				</td>
+				<tr>
+				<td>
+					<input type="button"class="button" value="0" name=""onclick="dis(0)" >
+				</td>
+				<td>
+					<input type="button"class="button"  value="."  name=""onclick="dis('.')">
+				</td>
+				<td>
+					<input type="button"class="button" value="="  name="" onclick="result()">
+				</td>
+				<td>
+					<input type="button" class="button" value="+"  name="" onclick="dis('+')">
+				</td>
+			</tr>
+			</tr>
+		</TABLE>
+	</form>
+</body>
+</html>
